@@ -5,13 +5,6 @@ open other lockboxes
 
 
 def canUnlockAll(boxes):
-    """
-    Function that determines if you can open all the lockboxes
-    Args:
-        boxes: list of lists of integers
-    Returns:
-        True if you can open all the lockboxes, False otherwise
-    """
     unlocked = set()
 
     for box_id, box in enumerate(boxes):
